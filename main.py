@@ -1,4 +1,5 @@
 import sys
+import face
 print("Them by Alan")
 while True:
 	print("Commands: \"new\" \"load\" \"about\" \"exit\"")
@@ -14,4 +15,6 @@ while True:
 		break
 	else:
 		print("Command not found")
+
+print(face.osh+"helo")
 
